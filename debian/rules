@@ -10,4 +10,4 @@ include /usr/share/cdbs/1/class/qmake.mk
 clean::
 	rm -rf debian/tmp
 	rm -f src/qpainter/libqzion.prl
-	rm -f src/qpainter/pkgconfig/qzion.pc
+	rm -rf src/qpainter/pkgconfig
