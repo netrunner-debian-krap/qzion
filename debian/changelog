@@ -1,4 +1,4 @@
-qzion (0.3.0-0r2) UNRELEASED; urgency=low
+qzion (0.3.0-1) experimental; urgency=low
 
   * Initial release.
     - taken from ubuntu, thanks.
