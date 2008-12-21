@@ -1,16 +1,16 @@
 Source: qzion
 Priority: optional
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
-XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 5), cdbs, qt4-qmake, libqt4-dev
 Standards-Version: 3.8.0
 Section: libs
 Homepage: http://dev.openbossa.org/trac/qedje
+Uploaders: Jonathan Riddell <jriddell@ubuntu.com>, Sune Vuorela <debian@pusling.com>
 
 Package: libqzion-dev
 Section: libdevel
 Architecture: any
-Depends: libqzion0 (= ${binary:Version}), libqt4-dev
+Depends: libqzion0 (= ${binary:Version}), libqt4-dev, ${misc:Depends}
 Description: canvas abstraction used by and made for QEdje
  QZion is a canvas abstraction used by and made for QEdje. As it is an
  abstraction, different implementations can exist, making it possible to

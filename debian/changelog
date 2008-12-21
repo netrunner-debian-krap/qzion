@@ -1,8 +1,12 @@
-qzion (0.3.0-0r1) UNRELEASED; urgency=low
+qzion (0.3.0-0r2) UNRELEASED; urgency=low
 
   * Initial release.
     - taken from ubuntu, thanks.
-      * modifications: don't ship prl file. either it should be postprocessed
-        or preferably just not used.
+
+  +++ Changes by Sune Vuorela:
+  
+  * Postprocess prl file to not let it contain too much crap. Taken from qt4
+    package.
+  * Fix up lintian issues.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Dec 2008 21:00:23 +0200

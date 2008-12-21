@@ -11,3 +11,14 @@ clean::
 	rm -rf debian/tmp
 	rm -f src/qpainter/libqzion.prl
 	rm -rf src/qpainter/pkgconfig
+
+common-install-arch::
+# Fix wrong path in pkgconfig files
+	find $(DEB_DESTDIR)/usr/lib/pkgconfig -type f -name '*.pc' \
+		-exec perl -pi -e "s, -L$(CURDIR)/?\S+,,g" {} \;
+# Fix wrong path in prl files
+	find $(DEB_DESTDIR)/usr/lib -type f -name '*.prl' \
+		-exec perl -pi -e "s, -L$(CURDIR)/\S+,,g" {} \;
+	find $(DEB_DESTDIR)/usr/lib -type f -name '*.prl' \
+		-exec sed -i -e "/^QMAKE_PRL_BUILD_DIR/d;s/\(QMAKE_PRL_LIBS =\).*/\1/" {} \;
+
