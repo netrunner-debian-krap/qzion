@@ -1,3 +1,9 @@
+qzion (0.3.0-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 16 Feb 2009 08:57:08 +0100
+
 qzion (0.3.0-1) experimental; urgency=low
 
   * Initial release.
