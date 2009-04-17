@@ -1,11 +1,11 @@
 #!/usr/bin/make -f
 
-QMAKE = qmake-qt4
-DEB_QMAKE_ARGS = PREFIX=/usr
-DEB_DH_INSTALL_SOURCEDIR = debian/tmp
-
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/qmake.mk
+
+QMAKE := qmake-qt4
+DEB_QMAKE_ARGS += PREFIX=/usr
+DEB_DH_INSTALL_SOURCEDIR := debian/tmp
 
 clean::
 	rm -rf debian/tmp

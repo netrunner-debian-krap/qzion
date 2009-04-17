@@ -1,3 +1,9 @@
+qzion (0.3.0-3) unstable; urgency=low
+
+  * Fix QMAKE variable override in debian/rules. (Closes: #523910)
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Apr 2009 10:46:00 +0200
+
 qzion (0.3.0-2) unstable; urgency=low
 
   * Upload to unstable
@@ -10,7 +16,7 @@ qzion (0.3.0-1) experimental; urgency=low
     - taken from ubuntu, thanks.
 
   +++ Changes by Sune Vuorela:
-  
+
   * Postprocess prl file to not let it contain too much crap. Taken from qt4
     package.
   * Fix up lintian issues.
