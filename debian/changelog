@@ -1,9 +1,18 @@
 qzion (0.4.0-1) UNRELEASED; urgency=low
 
-  * New upstream release.
-  * Fix QMAKE variable override in debian/rules. (Closes: #523910)
+  * New upstream release. (Closes: #526852)
+
+  +++ Changes by Fathi Boudra:
+
   * Update homepage.
   * Bump Standards-Version from 3.8.0 to 3.8.1 (no changes needed).
+
+  +++ Changes by George Kiagiadakis:
+
+  * Switch to cmake. (Closes: #523910)
+  * Update installed files.
+  * Update compat to 7.
+  * Do not build python bindings as they are not needed for kde.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 May 2009 11:01:26 +0200
 
