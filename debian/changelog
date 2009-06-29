@@ -1,4 +1,4 @@
-qzion (0.4.0-1) UNRELEASED; urgency=low
+qzion (0.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release. (Closes: #526852)
 
@@ -14,7 +14,7 @@ qzion (0.4.0-1) UNRELEASED; urgency=low
   * Update compat to 7.
   * Do not build python bindings as they are not needed for kde.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 May 2009 11:01:26 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 15:11:09 +0300
 
 qzion (0.3.0-2) unstable; urgency=low
 
