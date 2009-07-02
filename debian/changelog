@@ -1,6 +1,13 @@
-qzion (0.4.0-0r1) UNRELEASED; urgency=low
+qzion (0.4.0+lgpl-1) experimental; urgency=low
 
   * New upstream release. (Closes: #526852)
+
+  +++ Changes by Sune Vuorela:
+
+  * Take tarball based off d2045a5c8bdce45d23ece11ceccba7d5aaec7988, as it is 
+    0.4.0 + a commit relicensing to lgpl.
+  * Update copyright file
+  * Bump SONAME, abi has changed. this is krap. Use quilt for patching.
 
   +++ Changes by Fathi Boudra:
 
@@ -14,7 +21,7 @@ qzion (0.4.0-0r1) UNRELEASED; urgency=low
   * Update compat to 7.
   * Do not build python bindings as they are not needed for kde.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 15:11:09 +0300
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 15:11:09 +0300
 
 qzion (0.3.0-2) unstable; urgency=low
 
