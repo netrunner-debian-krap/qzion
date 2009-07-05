@@ -57,5 +57,8 @@ License:
     known as BSD License.  This variation is compatible with GNU GPL.
 
 
+For full license text of the GNU Lesser General Public License, on Debian 
+systems, see `/usr/share/common-licenses/LGPL'.
+
 The Debian packaging is (C) 2008, Jonathan Riddell <jriddell@ubuntu.com> and
 is licensed under the GNU GPL version 2 or later, see `/usr/share/common-licenses/GPL'.
