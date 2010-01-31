@@ -1,0 +1,10 @@
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -29,6 +29,6 @@
+ install(FILES ${qzion_HEADERS} DESTINATION include/)
+ 
+ if (NOT WIN32)
+-    configure_file(common/qzion.pc.cmake qzion.pc @ONLY)
++    configure_file(common/qzion.pc.cmake ${CMAKE_BINARY_DIR}/qzion.pc @ONLY)
+     install(FILES ${CMAKE_BINARY_DIR}/qzion.pc DESTINATION ${LIB_INSTALL_DIR}/pkgconfig/)
+ endif (NOT WIN32)
