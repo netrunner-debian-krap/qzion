@@ -1,3 +1,5 @@
+This patch fixes #560559. It is more a workaround that a real fix, the package
+needs some reviewing of the build system from upstream.
 --- a/src/CMakeLists.txt
 +++ b/src/CMakeLists.txt
 @@ -29,6 +29,6 @@

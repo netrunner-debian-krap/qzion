@@ -6,7 +6,7 @@ qzion (0.4.0+lgpl-3) unstable; urgency=low
     (Closes: #560559)
   * Bump Standards-Version from 3.8.1 to 3.8.3 (no changes needed).
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 31 Jan 2010 19:01:49 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 19:05:48 +0100
 
 qzion (0.4.0+lgpl-2) unstable; urgency=low
 
