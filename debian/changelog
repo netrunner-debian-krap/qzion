@@ -1,10 +1,12 @@
 qzion (0.4.0+lgpl-3) unstable; urgency=low
 
   [ Ana Beatriz Guerrero Lopez ]
-  * Fix FTFBS with newer cmake. Generate file qzion.pc explicitely in the directory 
-    where is later read from. Patch fix_dotpc.diff. (Closes: #560559)
+  * Fix FTFBS with newer cmake. Generate file qzion.pc explicitly
+    in the directory where is later read from. Patch fix_dotpc.diff. 
+    (Closes: #560559)
+  * Bump Standards-Version from 3.8.1 to 3.8.3 (no changes needed).
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 06:14:03 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 31 Jan 2010 19:01:49 +0100
 
 qzion (0.4.0+lgpl-2) unstable; urgency=low
 
