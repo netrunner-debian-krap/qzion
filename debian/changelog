@@ -1,6 +1,7 @@
 qzion (0.4.0+lgpl-4) unstable; urgency=low
 
   * Change my email address
+  * Add qtwebkit to build-deps. Closes: 618124
 
  -- Sune Vuorela <sune@debian.org>  Tue, 15 Mar 2011 22:38:06 +0100
 
