@@ -1,6 +1,6 @@
-qzion (0.4.0+lgpl-4.1~) UNRELEASED; urgency=medium
+qzion (0.4.0+lgpl-5~) UNRELEASED; urgency=medium
 
-  * Non-maintainer upload.
+  * Team upload.
   * Add a basic symbols file.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 29 Aug 2015 11:58:16 +0200
