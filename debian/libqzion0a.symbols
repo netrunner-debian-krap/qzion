@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.4.0+lgpl amd64
+# SymbolsHelper-Confirmed: 0.4.0+lgpl amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x
 libqzion.so.0a libqzion0a #MINVER#
  _ZN10QZionGroup10invalidateERK5QRectb@Base 0.4.0+lgpl
  _ZN10QZionGroup10invalidateERK7QRegionb@Base 0.4.0+lgpl
@@ -219,17 +219,17 @@ libqzion.so.0a libqzion0a #MINVER#
  (optional=templinst)_ZN5QHashIP11QZionObject15QHashDummyValueE13detach_helperEv@Base 0.4.0+lgpl
  (optional=templinst)_ZN5QHashIP11QZionObject15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 0.4.0+lgpl
  (optional=templinst)_ZN5QHashIP11QZionObject15QHashDummyValueE6removeERKS1_@Base 0.4.0+lgpl
- (optional=templinst)_ZN5QHashIP11QZionObject15QHashDummyValueED1Ev@Base 0.4.0+lgpl
- (optional=templinst)_ZN5QHashIP11QZionObject15QHashDummyValueED2Ev@Base 0.4.0+lgpl
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN5QHashIP11QZionObject15QHashDummyValueED1Ev@Base 0.4.0+lgpl
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN5QHashIP11QZionObject15QHashDummyValueED2Ev@Base 0.4.0+lgpl
  (optional=templinst)_ZN5QListIP11QZionObjectE13detach_helperEi@Base 0.4.0+lgpl
- (optional=templinst)_ZN5QListIP11QZionObjectE13detach_helperEv@Base 0.4.0+lgpl
+ (optional=templinst|arch=amd64)_ZN5QListIP11QZionObjectE13detach_helperEv@Base 0.4.0+lgpl
  (optional=templinst)_ZN5QListIP11QZionObjectE18detach_helper_growEii@Base 0.4.0+lgpl
  (optional=templinst)_ZN5QListIP11QZionObjectE6appendERKS1_@Base 0.4.0+lgpl
  (optional=templinst)_ZN5QListIP11QZionObjectE9removeAllERKS1_@Base 0.4.0+lgpl
- (optional=templinst)_ZN5QListIP11QZionObjectED1Ev@Base 0.4.0+lgpl
- (optional=templinst)_ZN5QListIP11QZionObjectED2Ev@Base 0.4.0+lgpl
- (optional=gccinternal)_ZN7QStringD1Ev@Base 0.4.0+lgpl
- (optional=gccinternal)_ZN7QStringD2Ev@Base 0.4.0+lgpl
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN5QListIP11QZionObjectED1Ev@Base 0.4.0+lgpl
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN5QListIP11QZionObjectED2Ev@Base 0.4.0+lgpl
+ (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN7QStringD1Ev@Base 0.4.0+lgpl
+ (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN7QStringD2Ev@Base 0.4.0+lgpl
  _ZN9QZionText11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.4.0+lgpl
  _ZN9QZionText11qt_metacastEPKc@Base 0.4.0+lgpl
  _ZN9QZionText12setAlignmentERK7QPointF@Base 0.4.0+lgpl
@@ -237,7 +237,7 @@ libqzion.so.0a libqzion0a #MINVER#
  _ZN9QZionText14setShadowColorERK6QColor@Base 0.4.0+lgpl
  _ZN9QZionText15setOutlineColorERK6QColor@Base 0.4.0+lgpl
  _ZN9QZionText16staticMetaObjectE@Base 0.4.0+lgpl
- _ZN9QZionText20setEllipsisAlignmentEd@Base 0.4.0+lgpl
+ (subst)_ZN9QZionText20setEllipsisAlignmentE{qreal}@Base 0.4.0+lgpl
  _ZN9QZionText5paintEP8QPainter@Base 0.4.0+lgpl
  _ZN9QZionText7changedEv@Base 0.4.0+lgpl
  _ZN9QZionText7setFontERK5QFont@Base 0.4.0+lgpl
